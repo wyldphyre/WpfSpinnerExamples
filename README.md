@@ -1,3 +1,3 @@
 # WpfSpinnerExamples
 
-Some simple examples of an animted "busy" spinner done with XAML and WPF.
+Some simple examples of an animated "busy" spinner done with XAML and WPF.
