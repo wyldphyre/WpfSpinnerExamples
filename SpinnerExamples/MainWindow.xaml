@@ -1,0 +1,53 @@
+﻿<Window
+    x:Class="SpinnerExamples.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:SpinnerExamples"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:spinnerControls="clr-namespace:SpinnerExamples.SpinnerControls"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center">
+            <Label
+                Margin="16"
+                Content="Spinner Examples"
+                FontSize="28" />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <spinnerControls:GradientTailSpinner
+                Width="100"
+                Height="100"
+                Margin="16" />
+
+            <spinnerControls:GradientSectionSpinner
+                Width="100"
+                Height="100"
+                Margin="16" />
+
+            <spinnerControls:SolidSectionSpinner
+                Width="100"
+                Height="100"
+                Margin="16" />
+
+            <spinnerControls:GradientGapSpinner
+                Width="100"
+                Height="100"
+                Margin="16" />
+
+            <spinnerControls:GradientGlowSpinner
+                Width="100"
+                Height="100"
+                Margin="16" />
+
+            <spinnerControls:GradientGlowGapSpinner
+                Width="100"
+                Height="100"
+                Margin="16" />
+        </StackPanel>
+    </Grid>
+</Window>
